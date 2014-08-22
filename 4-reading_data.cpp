@@ -21,26 +21,21 @@
  * 
  */
 
-
+#include <string>
 #include <iostream>
 
 int main(int argc, char **argv)
 {	
+	
 	float value;
 	std::cout<<"digit value : ";
 	std::cin>>value;
-	
-	std::cout<<"value = "<< value ;
-	
-	
+
 	std::string name;
-	
-	std::cout<< "digit your name :";
-	std::getline(std::cin, name);
-	
-	std::cout<< name;
-	
-	
+	std::getline(std::cin, name).ignore();  //hello world
+	std::cout<<"hello " << name << "\n";  //hello world
+
+
 	return 0;
 }
 
