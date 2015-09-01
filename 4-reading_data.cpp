@@ -32,8 +32,8 @@ int main(int argc, char **argv)
 	std::cin>>value;
 
 	std::string name;
-	std::getline(std::cin, name).ignore();  //hello world
-	std::cout<<"hello " << name << "\n";  //hello world
+	std::getline(std::cin, name).ignore();  
+	std::cout<<"hello " << name << "\n";  
 
 
 	return 0;
